@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
   </head>
-
+  <body>
     <h1>HTML & CSS Sandbox - Global Attributes</h1>
+    <h2 id="main-heading">Heading 2</h2>
 
+    <!-- Style -->
+    <p style="color: red; font: size 1.25rem">This a paragraph</p>
+
+    <button
+      title="Home button"
+      accesskey="h"
+      onclick="alert('Home Button Clicked')"
+    >
+      Home
+    </button>
+
+    <div hidden>This is a hidden div</div>
+
+    <!-- tabindex -->
+    <button tabindex="1">tabindex</button>
+    <button tabindex="2">tabindex</button>
+    <button tabindex="3">tabindex</button>
+
+    <!-- contenteditable -->
+    <div contenteditable="true">This is a content editable div</div>
+
+    <!-- Draggable -->
+    <div draggable="true">This is a draggable div</div>
+
+    <!-- autofocus -->
+    <input type="text" autofocus />
   </body>
 </html>
