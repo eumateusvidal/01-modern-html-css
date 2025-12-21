@@ -1,0 +1,33 @@
+/* Type Selectors */
+/* h2 {
+  color: red;
+  font-size: 2rem;
+} */
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Class Selectors  */
+
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: brown;
+}
+
+/* ID Selectors  */
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 20px;
+}
