@@ -1,3 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Type Selectors */
 /* h2 {
   color: red;
@@ -30,4 +41,16 @@ a {
   margin: 0 auto;
   border: 2px solid black;
   padding: 20px;
+}
+
+/* Multiple Styles  */
+
+.sporty,
+.casual {
+  font-size: 3rem;
+}
+
+/* Descedant Selectors  */
+#container p {
+  background-color: blue;
 }

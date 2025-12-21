@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  /* font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  font-variant: small-caps; */
+
+  font: 500 3rem 'Roboto', sans-serif;
+  letter-spacing: -0.02em;
+}
