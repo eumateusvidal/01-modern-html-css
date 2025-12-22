@@ -1,3 +1,16 @@
 body {
   font-family: Arial, sans-serif;
+  /* background-color: black; */
+
+  /* RGB */
+  background: rgb(255, 0, 0);
+}
+
+.sporty {
+  color: red;
+}
+
+/* HEX Values */
+.casual {
+  color: white;
 }
