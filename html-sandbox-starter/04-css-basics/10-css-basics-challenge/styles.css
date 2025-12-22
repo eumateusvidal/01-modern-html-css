@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -13,17 +13,8 @@ body {
 .header h1 {
   color: white;
   text-align: center;
-  padding: 20px 0;
-  font-size: 2.5rem;
-}
-
-.main-menu {
-  background-color: #f4f4f4;
-  text-transform: uppercase;
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 1.25rem;
+  padding: 1.25rem 0;
+  font-size: 40px;
 }
 
 a {
@@ -39,12 +30,23 @@ a:active {
   color: rebeccapurple;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul.main-menu {
+  list-style: none;
+  text-indent: 0.625rem;
+  text-transform: uppercase;
+}
+
 .lead {
+  font-size: 1.25rem;
   font-weight: bold;
   color: rebeccapurple;
-  padding: 0 0 0 1.25rem;
 }
 
 p {
-  padding: 0 0 0 1.25rem;
+  padding: 0 0 0 20px;
 }
