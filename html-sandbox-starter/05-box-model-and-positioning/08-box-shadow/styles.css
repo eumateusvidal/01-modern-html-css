@@ -17,3 +17,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 10px;
 }
+
+.box-1 {
+  box-shadow: 10px 10px 10px 10px #000;
+}
