@@ -45,3 +45,19 @@ body {
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+
+.form-group input {
+  min-height: 2.5rem;
+  width: 100%;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group button {
+  width: 100%;
+  min-height: 2.5rem;
+  font-weight: bold;
+  background-color: orange;
+  border: orange;
+  color: white;
+}
