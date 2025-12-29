@@ -1,3 +1,90 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #d9e2e8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 6.25rem auto;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background: white;
+  margin: 20px;
+  padding: 20px 20px 30px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  width: 100%;
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+}
+
+.card h2 {
+  font-size: 1.6875rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.card img {
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  right: 1rem;
+  top: 0;
+}
+
+/* Heading Colors */
+
+.card-sporty h2 {
+  color: #e04553;
+}
+
+.card-casual h2 {
+  color: #0d4ba3;
+}
+
+.card-formal h2 {
+  color: #512b22;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.card a:hover {
+  opacity: 0.9;
+  transition: all 0.3s;
+}
+
+/* Link Colors */
+
+.card-sporty a {
+  background-color: #e04553;
+}
+
+.card-casual a {
+  background-color: #0d4ba3;
+}
+
+.card-formal a {
+  background-color: #512b22;
 }
