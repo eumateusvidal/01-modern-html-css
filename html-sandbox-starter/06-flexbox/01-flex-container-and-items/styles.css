@@ -1,3 +1,21 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.flex-container {
+  background: #ccc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.flex-item {
+  height: 12.5rem;
+  width: 12.5rem;
+  background-color: orange;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
