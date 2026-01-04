@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +10,19 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 56.25rem;
+  padding: 0 1.25rem;
+  margin: 50px auto;
+}
+
+p {
+  font-size: 1rem;
 }
