@@ -9,3 +9,33 @@ body {
   font-size: 18px;
   line-height: 1.6;
 }
+
+p {
+  padding: 2rem;
+}
+
+main {
+  max-width: 68.75rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+  background: #f4f4fa;
+
+  .card {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Container Units */
+    width: 50%;
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .card.card-2 {
+    width: 70cqw;
+  }
+}
+
+@container (max-width: 600px);
